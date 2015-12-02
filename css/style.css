@@ -1,0 +1,175 @@
+.header {
+	background-color: #F78181;
+	font-size: 50px;
+	word-spacing: 5px;
+	color: white;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+.subhead {
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: bold;
+}
+.container {
+	text-align: left;
+}
+.date {
+	margin-top: 10px;
+}
+.daily-briefing {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+h1 {
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bold;
+	font-size: 50px;
+}
+h2 {
+	text-align: left;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+h3 {
+	text-align: left;
+	font-family: Georgia, serif;
+	color: #B43104;
+	margin-bottom: 5px;
+}
+h4 {
+	color: #B43104;
+	text-align: center;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+h5 {
+	color: #B43104;
+	text-align: center;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+h6 {
+	color: #3B0B0B;
+	text-align: center;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	margin-top: 15px;
+	font-size: 40px;
+}
+h7 {
+	color: #3B0B0B;
+	text-align: left;
+	font-weight: bold;
+	font-family: Georgia, serif;
+	font-size: 25px;
+	margin-top: 15px;
+	margin-left: -380px;
+}
+h8 {
+	color: #3B0B0B;
+	font-family: Georgia, serif;
+	font-variant: small-caps;
+}
+li {
+	margin-top: 10px;
+}
+.date {
+	color: #B43104;
+	font-weight: bold;
+}
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.ad {
+	margin-top: 10px;
+}
+.footer {
+	background-color: #3B0B0B;
+	color: white;
+	margin-top: 15px;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+@media (max-width: 2000px) {
+	.show-desktop {
+		display: block;
+	}
+	.show-tablet {
+		display: none;
+	}
+	.show-mobile {
+		display: none;
+	}
+}
+@media (max-width: 1000px) {
+	.show-desktop {
+		display: none;
+	}
+	.show-tablet {
+		display: block;
+	}
+	.show-mobile {
+		display: none;
+	}
+	.header {
+		background-color: #3B0B0B;
+		color: #B43104;
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	h4 {
+		font-size: 25px;
+	}
+	.daily-briefing {
+		font-size: 15px;
+	}
+}
+@media (max-width: 600px) {
+	.show-desktop {
+		display: none;
+	}
+	.show-tablet {
+		display: none;
+	}
+	.show-mobile {
+		display: block;
+	}
+	.header {
+		background-color: white;
+		color: #3B0B0B;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.subhead {
+		background-color: #B43104;
+		font-size: 12px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	.daily-briefing {
+		font-size: 12px;
+	}
+}
